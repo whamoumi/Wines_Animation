@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+:root {
+  --color: cyan;
+}
+
+@font-face {
+  font-family: Vogue;
+  src: url(./Vogue.ttf);
+}
+
+@font-face {
+  font-family: rr;
+  src: url(./MADE-Bon-Voyage-Regular-PERSONAL-USE.ttf);
+}
+
+@font-face {
+  font-family: rrr;
+  src: url(.//MADE-Bon-Voyage-Thin-PERSONAL-USE.ttf);
+}
+
+.container3::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+}
+
+body .container3 {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-size: 21px;
+  line-height: 35px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: rr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  background-color: #e8e8e8;
+}
+
+body .container3 .left {
+  width: 210px;
+  height: 416px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 3;
+}
+
+body .container3 .left .wine {
+  height: 90%;
+  width: 100%;
+  position: relative;
+}
+
+body .container3 .left .wine .rond {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #737c60;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+body .container3 .left .namewines {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #1d1d1d;
+  opacity: 0.35;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body .container3 .left .img2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body .container3 .left .img2 img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80px;
+  height: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .container3 .right {
+  z-index: 3;
+  width: 210px;
+  height: 416px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container3 .right .wine {
+  height: 90%;
+  width: 100%;
+  position: relative;
+}
+
+body .container3 .right .wine .rond {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #e4efaa;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .container3 .right .img2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body .container3 .right .img2 img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80px;
+  height: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .container3 .right .namewines {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #1d1d1d;
+  opacity: 0.35;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body .container3 .left:hover .wine .rond {
+  width: 170px;
+  height: 170px;
+  background: #e4efaa;
+  opacity: 1;
+}
+
+body .container3 .left:hover .wine .img2 img {
+  top: 45%;
+}
+
+body .container3 .left:hover .namewines {
+  opacity: 1;
+}
+
+body .container3 .left:hover .container3 {
+  background-color: black;
+}
+
+body .container3 .right:hover .wine .rond {
+  width: 170px;
+  height: 170px;
+  background: #737c60;
+}
+
+body .container3 .right:hover .wine .img2 img {
+  top: 45%;
+}
+
+body .container3 .right:hover .namewines {
+  opacity: 1;
+}
+/*# sourceMappingURL=index.css.map */

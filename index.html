@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./index.
+	css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wines Animation</title>
+</head>
+<body>
+	<div class="container3" id="coco">
+		<div class="right" >
+			<div class="wine">
+				<div class="rond"></div>
+				<div class="img2" >
+					<img src="./valpolicella_ripasso.png" alt="" id="riri">
+				</div>
+			</div>
+			<div class="namewines">
+				<p>Ripasso</p>
+			</div>
+		</div>
+		<div class="left" >
+			<div class="wine">
+				<div class="rond" id="rond"></div>
+				<div class="img2" >
+
+						<img src="./valpolicella_classico.png" alt="" id="lele">
+				</div>
+			</div>
+			<div class="namewines">
+				<p>Valpolicella</p>
+			</div>
+		</div>
+	</div>
+	<script>
+		var body = document.getElementById('coco');
+		var right = document.getElementById('riri');
+		var lefte = document.getElementById('lele');
+		right.addEventListener("mouseover", ()=> {
+			body.style.transition = "0.5s";
+			body.style.backgroundColor = "#f8fae7";
+
+		})
+		lefte.addEventListener("mouseover", ()=> {
+			body.style.transition = "0.5s";
+			body.style.backgroundColor = "#dee3d5";
+		})
+		right.addEventListener("mouseout", ()=> {
+			body.style.transition = "1s";
+			body.style.backgroundColor = "#e8e8e8";
+		})
+		lefte.addEventListener("mouseout", ()=> {
+			body.style.transition = "1s";
+			body.style.backgroundColor = "#e8e8e8";
+		})
+	</script>
+</body>
+
+</html>
